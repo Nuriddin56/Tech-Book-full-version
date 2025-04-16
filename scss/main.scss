@@ -103,8 +103,6 @@
 }
 
 .image-section {
-  flex: 1;
-  background: linear-gradient(to bottom, rgba(156, 201, 218, 1));
   padding-bottom: 80px;
   margin-top: 93px;
   margin-left: 60px;
@@ -405,6 +403,7 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 110.00000000000001%;
+  color: #062630;
   padding-top: 24px;
   padding-left: 24px;
 }
@@ -446,10 +445,12 @@
 }
 
 .starter li {
+  display: flex;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
+  gap: 2px;
   color: #385159;
   margin-top: 16px;
   margin-left: 24px;
@@ -467,6 +468,7 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 110.00000000000001%;
+  color: #062630;
   padding-top: 40px;
   padding-left: 24px;
 }
@@ -489,11 +491,18 @@
   }
 }
 
-.ul {
+.pro img {
+  display: flex;
+  gap: 2px;
+}
+
+.pro li {
+  display: flex;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
+  gap: 2px;
   color: #385159;
   margin-top: 16px;
   margin-left: 24px;
@@ -509,7 +518,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 130%;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 24px;
   margin-right: 24px;
 }
@@ -527,6 +536,7 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 110.00000000000001%;
+  color: #062630;
   padding-top: 24px;
   padding-left: 24px;
 }
@@ -558,11 +568,151 @@
 }
 
 .enterprise li {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  gap: 2px;
+  color: #385159;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+/* section description*/
+
+.section-description {
+  margin-top: 120px;
+}
+
+.description {
+  justify-content: center;
+  display: flex;
+  gap: 6px;
+  transform: translate(-18px);
+}
+
+.description-p {
+  width: 970px;
+  text-align: center;
+  font-family: "Martian Mono", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  margin-top: 32px;
+  margin-left: 255px;
+}
+
+.description-p-two {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
   color: #385159;
-  margin-top: 16px;
-  margin-left: 24px;
+  margin-top: 32px;
+  margin-left: 590px;
+  margin-bottom: 120px;
+}
+
+/* main end*/
+
+.main-end {
+  padding-top: 80px;
+  background-color: #062630;
+  padding-left: 343.5px;
+  padding-bottom: 64px;
+}
+
+.main-end h2 {
+  width: 685px;
+  height: 130px;
+  text-align: center;
+  font-family: "Martian Mono", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  color: #faf5f3;
+  margin-left: 37px;
+}
+
+.main-end button {
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  font-family: "Martian Mono", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  background-color: #062630;
+  color: #ffffff;
+  background-image: url(../images/icon-arrow-up.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-position: calc(100% - 25px) center;
+  padding-top: 20.5px;
+  padding-right: 64px;
+  padding-left: 24px;
+  padding-bottom: 20.5px;
+  margin-top: 40px;
+  margin-left: 180px;
+}
+
+.stars {
+  display: flex;
+  gap: 12px;
+  margin-left: 182px;
+}
+
+.stars img {
+  margin-top: 28px;
+}
+
+.main-end p {
+  width: 266px;
+  height: 17px;
+  font-family: "Martian Mono", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -1px;
+  color: #faf5f3;
+  margin-left: 305px;
+  transform: translateY(-10px);
+}
+
+/* footer*/
+
+.footer {
+  padding-top: 64px;
+  background-color: #062630;
+  justify-content: space-between;
+}
+
+.footer-images p {
+  font-family: "Martian Mono", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.footer-images {
+  margin-left: 135px;
+  margin-bottom: 29px;
+  display: flex;
+}
+
+.footer-images img {
+  transform: translate(902px);
+}
+
+.line {
+  border-bottom: 1px solid #385159;
+  width: 79%;
+  margin-bottom: 24px;
+  padding-right: 135px;
+  margin-left: 135px;
+}
+
+.two-two {
+  margin-right: 24px;
 }
