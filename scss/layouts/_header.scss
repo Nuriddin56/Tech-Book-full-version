@@ -5,10 +5,11 @@
       transparent 1px
     ),
     linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-  background-size: 30px 30px;
+  background-size: 35px 35px;
 }
 
 .header-logo {
-  margin-top: 32px;
-  margin-left: 135px;
+  padding-top: 34px;
+  padding-left: 135px;
+  transform: translateY(5px);
 }
